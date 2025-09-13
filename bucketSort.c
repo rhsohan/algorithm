@@ -131,7 +131,7 @@ int main() {
         bucketSortInt(arr, n);
 
         // Print sorted array
-        printf("After sorting:\n");
+        printf("After bucket sorting:\n");
         for (int i = 0; i < n; i++) {
             printf("%d ", arr[i]);
         }
@@ -150,7 +150,7 @@ int main() {
         bucketSortFloat(arr, n);
 
         // Print sorted array
-        printf("After sorting:\n");
+        printf("After bucket sorting:\n");
         for (int i = 0; i < n; i++) {
             printf("%.2f ", arr[i]);
         }
